@@ -3,8 +3,8 @@ import { NextRequest, NextResponse } from 'next/server';
 
 AWS.config.update({
   region: 'us-east-1', // Replace with your bucket's region
-  accessKeyId: 'AKIA3TRZQE5PJQWKUDV4', // Replace with your access key ID
-  secretAccessKey: 'LIVJWX4T41PG5/KyX/AHcv/M2PP8otxfDieWPjp0', // Replace with your secret access key
+  accessKeyId: 'AWS_ACCESS_KEY_ID', // Replace with your access key ID
+  secretAccessKey: 'AWS_SECRET_KEY', // Replace with your secret access key
 });
 
 const s3 = new AWS.S3();
